@@ -1,0 +1,45 @@
+{
+  "name": "mogu-bot",
+  "description": "A simple helpful robot for your lunch or dinner.",
+  "repository": "https://github.com/shinshin86/mogu-bot",
+  "env": {
+    "HUBOT_HOTPEPPER_API_KEY": {
+      "description" : "Your HOTPEPPER API key",
+      "required": true
+    },
+    "HUBOT_MOGUMOGU_CHANNEL": {
+      "description" : "Your Slack channel",
+      "required": true
+    },
+    "HUBOT_MOGUMOGU_LOCATION": {
+      "description" : "Your location",
+      "required": true
+    },
+    "HUBOT_MOGUMOGU_NOW_BUDGET": {
+      "description" : "Your now budget code. HOTPAPPER API 検索用予算マスタAPI -> https://webservice.recruit.co.jp/hotpepper/reference.html",
+      "required": true
+    },
+    "HUBOT_MOGUMOGU_LUNCH_BUDGET": {
+      "description" : "Your lunch budget code. HOTPAPPER API 検索用予算マスタAPI -> https://webservice.recruit.co.jp/hotpepper/reference.html",
+      "required": true
+    },
+    "HUBOT_MOGUMOGU_DINNER_BUDGET": {
+      "description" : "Your dinner budget code. HOTPAPPER API 検索用予算マスタAPI -> https://webservice.recruit.co.jp/hotpepper/reference.html",
+      "required": true
+    },
+    "HUBOT_SLACK_BOTNAME": {
+      "description" : "Your Bot name",
+      "value" : "mogu-bot",
+      "required": true
+    },
+    "HUBOT_SLACK_TEAM": {
+      "description" : "Your Slcak team. Example: If your team is https://myteam.slack.com/, you would enter 'myteam' here.",
+      "required": true
+    },
+    "HUBOT_SLACK_TOKEN": {
+      "description" : "Your Slack token",
+      "required": true
+    }
+  },
+  "addons": []
+}
