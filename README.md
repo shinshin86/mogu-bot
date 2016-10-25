@@ -6,7 +6,20 @@
 
 ## How to use
 
-Create a Slack channel and invite hubot(mogu-bot) to the room.
+Create a Slack channel and invite hubot(mogu-bot) to the room.<br>
+To the time zone of the lunch and dinner,<br>
+Introduce you to one of your current area restaurant or pub or cafe.
+
+
+-------------
+## Command
+
+Commands have four pattern.
+
+	hubot hungry - Say lunch or dinner spot at around your location (Englist).
+	hubot angry  - Did you mean "hungry"? (; ･`ω･´)
+	hubot お腹減った - 昼食や夕食を食べるためのお店の情報を日本語で返します
+	hubot アングリー  - (; ･`ω･´)
 
 
 -------------
